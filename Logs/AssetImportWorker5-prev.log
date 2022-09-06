@@ -1,0 +1,601 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32472 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/Andreas/Documents/GitHub/Spaceshooter
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+64410
+Successfully changed project path to: C:/Users/Andreas/Documents/GitHub/Spaceshooter
+C:/Users/Andreas/Documents/GitHub/Spaceshooter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 73.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Andreas/Documents/GitHub/Spaceshooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1181
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002983 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 61.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.471 seconds
+Domain Reload Profiling:
+	ReloadAssembly (472ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (337ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (79ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (200ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 72.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1061ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (908ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (579ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (399ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4069 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (223.4 KB). Loaded Objects now: 4521.
+Memory consumption went from 151.6 MB to 151.4 MB.
+Total: 9.857300 ms (FindLiveObjects: 0.276800 ms CreateObjectMapping: 0.107600 ms MarkObjects: 9.300600 ms  DeleteObjects: 0.171100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 932.838719 seconds.
+  path: Assets/Textures/PNG/Damage/playerShip2_damage1.png
+  artifactKey: Guid(d7a2a60224196784397fe5bec89dcc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/Damage/playerShip2_damage1.png using Guid(d7a2a60224196784397fe5bec89dcc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a3bb66ae5feb502e39049dd5e71aa6') in 0.095610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.734500 seconds.
+  path: Assets/Textures/PNG/Lasers/laserBlue04.png
+  artifactKey: Guid(60a2b0b32db27e341bd4b5667662e2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/Lasers/laserBlue04.png using Guid(60a2b0b32db27e341bd4b5667662e2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b05df0c95296abdb18594b7e65a17b') in 0.028932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/PNG/Lasers/laserBlue09.png
+  artifactKey: Guid(70fdc338a9ee6b544844ff9e83981104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/Lasers/laserBlue09.png using Guid(70fdc338a9ee6b544844ff9e83981104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3cd853ae28b97fd97e58b480a03182c') in 0.023202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Textures/PNG/Lasers/laserBlue16.png
+  artifactKey: Guid(8c5276db654e883428718bad6a53a651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/Lasers/laserBlue16.png using Guid(8c5276db654e883428718bad6a53a651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372af2c8676b2f8011c9136a4c7c7505') in 0.038218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/PNG/Lasers/laserGreen08.png
+  artifactKey: Guid(936e7469a2b4b424b9e71b3604aa4fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/Lasers/laserGreen08.png using Guid(936e7469a2b4b424b9e71b3604aa4fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe22836c987150237ccf75f7eaccd8a') in 0.020745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Textures/PNG/Lasers/laserBlue06.png
+  artifactKey: Guid(9e0bdadaa9d2af64eaa7c51d5c2f9bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/Lasers/laserBlue06.png using Guid(9e0bdadaa9d2af64eaa7c51d5c2f9bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28e8da2ed7e4498e483d59a979c73ca') in 0.024174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Textures/PNG/Lasers/laserGreen13.png
+  artifactKey: Guid(96f18dbe6969f8748852dc8d479241b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/Lasers/laserGreen13.png using Guid(96f18dbe6969f8748852dc8d479241b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7175952b02262e240d651820b9d28f7b') in 0.014600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/PNG/Lasers/laserBlue08.png
+  artifactKey: Guid(c3dc703cb7d96884d9875769dc706d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/Lasers/laserBlue08.png using Guid(c3dc703cb7d96884d9875769dc706d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e96ab302b1f82255f824a0d00f455ba') in 0.014096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Textures/PNG/Lasers/laserBlue10.png
+  artifactKey: Guid(4d2f54a3ecc747945a13d9d4214ca97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/Lasers/laserBlue10.png using Guid(4d2f54a3ecc747945a13d9d4214ca97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f1583dc4e6b08615361636c1d89711') in 0.015199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.399054 seconds.
+  path: Assets/Textures/PNG/UI/buttonYellow.png
+  artifactKey: Guid(2e5aa5c372cb2374abafb487d31d79f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/UI/buttonYellow.png using Guid(2e5aa5c372cb2374abafb487d31d79f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb6588337722fca2367fe78c5df00ae') in 0.024264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Textures/PNG/UI/numeral1.png
+  artifactKey: Guid(86061ab651ce25a488218ae91618fadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/UI/numeral1.png using Guid(86061ab651ce25a488218ae91618fadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31653ff897964f4c2fa3126b1cf042c') in 0.032142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Textures/PNG/UI/playerLife3_blue.png
+  artifactKey: Guid(6180082551c86294db653515fc905936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/UI/playerLife3_blue.png using Guid(6180082551c86294db653515fc905936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b462392a2a517f6fb735c95d8a7e9d37') in 0.027766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Textures/PNG/UI/playerLife1_orange.png
+  artifactKey: Guid(853a0acf6a7334643a601cbb5ac78820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/UI/playerLife1_orange.png using Guid(853a0acf6a7334643a601cbb5ac78820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0681c405d4356a5d5387643f9587326') in 0.027973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/PNG/UI/numeral5.png
+  artifactKey: Guid(fd951fbed89111348a3e7bb27fad276f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/UI/numeral5.png using Guid(fd951fbed89111348a3e7bb27fad276f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e892b6ae72d608e6ba735b6bf0a93a4') in 0.019620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/PNG/UI/numeral9.png
+  artifactKey: Guid(3860813c59ceb0b4e97c43c56d4327c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/UI/numeral9.png using Guid(3860813c59ceb0b4e97c43c56d4327c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47777d7fcce5ffcb146d371baf330f47') in 0.030703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Textures/PNG/UI/numeral2.png
+  artifactKey: Guid(0404fe71c790cb5418ed37a83fe0d51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PNG/UI/numeral2.png using Guid(0404fe71c790cb5418ed37a83fe0d51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bc96bb5c09f6e4b9bc01afca831d65') in 0.035161 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003505 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Domain Reload Profiling:
+	ReloadAssembly (866ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (707ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (157ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (325ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (190.8 KB). Loaded Objects now: 4550.
+Memory consumption went from 155.9 MB to 155.8 MB.
+Total: 9.545500 ms (FindLiveObjects: 0.234600 ms CreateObjectMapping: 0.114700 ms MarkObjects: 9.046300 ms  DeleteObjects: 0.148700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 198.319567 seconds.
+  path: Assets/Textures/Parts/beam1.png
+  artifactKey: Guid(b333687e603b4124d838adbccf53566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/beam1.png using Guid(b333687e603b4124d838adbccf53566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a32927bb3ac74511a4d0e673252ce01') in 0.052424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Textures/Parts/cockpitGreen_0.png
+  artifactKey: Guid(6f3ff2dabb6b0794a8ffd375d82d195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/cockpitGreen_0.png using Guid(6f3ff2dabb6b0794a8ffd375d82d195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59814188dbe54c8c7b7f2963536a6589') in 0.018492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Textures/Parts/cockpitGreen_5.png
+  artifactKey: Guid(01b4804dbfcbcea458ebe8612c4f4068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/cockpitGreen_5.png using Guid(01b4804dbfcbcea458ebe8612c4f4068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2c5d4011c141428ccdf837e445c7e8') in 0.018738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Textures/Parts/gun00.png
+  artifactKey: Guid(f1b9d0f48b7483e46b897844d09e4925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/gun00.png using Guid(f1b9d0f48b7483e46b897844d09e4925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15659857ce85c4f9defd1c1c8b6e1a9') in 0.016093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Textures/Parts/cockpitYellow_6.png
+  artifactKey: Guid(1215521c68072b6438405202213886ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/cockpitYellow_6.png using Guid(1215521c68072b6438405202213886ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c6915eebb7d0450cc7056351e38f9e') in 0.019974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Parts/gun03.png
+  artifactKey: Guid(b749b3bdb927b7145bcd469f15f5cf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/gun03.png using Guid(b749b3bdb927b7145bcd469f15f5cf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affa4748196cab357155003991ef4d49') in 0.027819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/Parts/cockpitGreen_7.png
+  artifactKey: Guid(3701eaad1dce0194a82dc07f1f7db923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/cockpitGreen_7.png using Guid(3701eaad1dce0194a82dc07f1f7db923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625f99d51fd8f71c212dab6bbcd656f2') in 0.022954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Textures/Parts/beam3.png
+  artifactKey: Guid(619ba8f44698cc94f9aef02efeabe5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/beam3.png using Guid(619ba8f44698cc94f9aef02efeabe5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f1352110b8fb81f66d50f495df6889') in 0.014860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/Parts/gun07.png
+  artifactKey: Guid(61cd27f3c1bc37349b171ae200096209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/gun07.png using Guid(61cd27f3c1bc37349b171ae200096209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2f63a29bab09ed2f63b6a6f0f107e6') in 0.020689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/Parts/cockpitRed_3.png
+  artifactKey: Guid(bdb71caf613f50b48a15b1ee3949b8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/cockpitRed_3.png using Guid(bdb71caf613f50b48a15b1ee3949b8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b68fbc36954b25604d7be76aee990c') in 0.035231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/Parts/beam6.png
+  artifactKey: Guid(13be6fb0c9eccbe4882eb649217f5e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/beam6.png using Guid(13be6fb0c9eccbe4882eb649217f5e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02222e3af68cdfd63ca4e211c601b14') in 0.014254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Textures/Parts/cockpitBlue_3.png
+  artifactKey: Guid(d04557ec4b790134984b9fa5585ae53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/cockpitBlue_3.png using Guid(d04557ec4b790134984b9fa5585ae53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedc91850f2210a7f85b031b1f0e587b') in 0.014716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Textures/Parts/cockpitGreen_4.png
+  artifactKey: Guid(548773ceb8e0e7c4dbf5de2058ce042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/cockpitGreen_4.png using Guid(548773ceb8e0e7c4dbf5de2058ce042d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55b80604dbb4e6c85971c45e2cb789b') in 0.014422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Textures/Parts/engine3.png
+  artifactKey: Guid(ff8b4aaf21ed2db49b93304a206e269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/engine3.png using Guid(ff8b4aaf21ed2db49b93304a206e269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2442fbe0903f205efea72679f051e0b3') in 0.014984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Textures/Parts/gun05.png
+  artifactKey: Guid(de48d71c99dfe594ebe1d6d8f8cb1ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/gun05.png using Guid(de48d71c99dfe594ebe1d6d8f8cb1ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb474a3c3f383dd6444be175f07fc80') in 0.015315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/Parts/cockpitRed_7.png
+  artifactKey: Guid(3890666f9fb5c3845a97f398ca04e2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/cockpitRed_7.png using Guid(3890666f9fb5c3845a97f398ca04e2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b037291b0b33bfbd59de15c52d0eb2a6') in 0.015239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Textures/Power-ups/bolt_gold.png
+  artifactKey: Guid(08a4051752eddf64da5039c9588af044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Power-ups/bolt_gold.png using Guid(08a4051752eddf64da5039c9588af044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44f773f70ede3bbdcd3565b4056b725') in 0.015506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/Parts/engine1.png
+  artifactKey: Guid(ad77967e24abcb54aa0b0cd83a8473b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/engine1.png using Guid(ad77967e24abcb54aa0b0cd83a8473b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8665497ee409198f066f32ed45ae508b') in 0.014448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/Parts/gun06.png
+  artifactKey: Guid(5ab4e802914bc494880cb43c784c0ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/gun06.png using Guid(5ab4e802914bc494880cb43c784c0ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed89219fb88b416179f06bf8a60d1286') in 0.015299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Textures/Parts/beamLong2.png
+  artifactKey: Guid(d902dde91fdef794eb513c4b26dc9c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/beamLong2.png using Guid(d902dde91fdef794eb513c4b26dc9c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092b1b2ef7dd6ac0bc6ee2c81eff2621') in 0.020488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Textures/Parts/cockpitBlue_2.png
+  artifactKey: Guid(ec7e2e02e83eb9347ab35cdba2ec84a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/cockpitBlue_2.png using Guid(ec7e2e02e83eb9347ab35cdba2ec84a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32467668665de57180cebe0422181c83') in 0.014314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Textures/Parts/cockpitGreen_2.png
+  artifactKey: Guid(c761351892c7cd44a95bc66ccc9c8df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/cockpitGreen_2.png using Guid(c761351892c7cd44a95bc66ccc9c8df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bca2744f102e345bfd2b1322bb62166') in 0.014334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Textures/Parts/gun10.png
+  artifactKey: Guid(834a7403f8eca3f4f84e69e9d7f031d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/gun10.png using Guid(834a7403f8eca3f4f84e69e9d7f031d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e22711e5f98abff00ba70b0e6b7d9bc') in 0.014677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Textures/Parts/cockpitGreen_1.png
+  artifactKey: Guid(6500c6c952ecd8a45b9e4be898004ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/cockpitGreen_1.png using Guid(6500c6c952ecd8a45b9e4be898004ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43cc99ca53330f2266c71d3db097a32') in 0.014440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/Parts/gun09.png
+  artifactKey: Guid(e27159fc335b56a4f9ca2dff0734b5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/gun09.png using Guid(e27159fc335b56a4f9ca2dff0734b5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb6cf837063595cf43e7a23ecd9c4d9') in 0.014174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/Parts/beam5.png
+  artifactKey: Guid(8aab5e42577d7f14da5bb1a92f2c26dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/beam5.png using Guid(8aab5e42577d7f14da5bb1a92f2c26dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff34d6e8d48382043605459b5b88b098') in 0.015688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Textures/Parts/cockpitBlue_5.png
+  artifactKey: Guid(9b50397d258da3d488aafe66e186a25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/cockpitBlue_5.png using Guid(9b50397d258da3d488aafe66e186a25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c2b4cb1d774e42222f305bfdd48697') in 0.014664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/Parts/cockpitBlue_7.png
+  artifactKey: Guid(abf5e899f518e9945ae31c88c0ea609f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/cockpitBlue_7.png using Guid(abf5e899f518e9945ae31c88c0ea609f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4c16b2b5514bfaca4b268f68af2515') in 0.014423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textures/Parts/cockpitYellow_5.png
+  artifactKey: Guid(1c99c629ade7c6b4b8903e556219f2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/cockpitYellow_5.png using Guid(1c99c629ade7c6b4b8903e556219f2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7922c7ceccb7b792b40b19d9e72fb4e3') in 0.014437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Textures/Parts/cockpitRed_1.png
+  artifactKey: Guid(e2af3e5b7a4b38740bdac42a3f6d3097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Parts/cockpitRed_1.png using Guid(e2af3e5b7a4b38740bdac42a3f6d3097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dcfb66ec462fe0bc96e56e375ea7a9') in 0.013460 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003658 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Users\Andreas\Documents\GitHub\Spaceshooter\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
+Domain Reload Profiling:
+	ReloadAssembly (980ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (809ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (161ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (390ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (190.6 KB). Loaded Objects now: 4598.
+Memory consumption went from 156.1 MB to 155.9 MB.
+Total: 8.476200 ms (FindLiveObjects: 0.219200 ms CreateObjectMapping: 0.098700 ms MarkObjects: 8.031800 ms  DeleteObjects: 0.125300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
